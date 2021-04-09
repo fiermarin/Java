@@ -3,7 +3,11 @@ package semana5;
 public class Principal {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		int[] mi_array_enteros = {5,10,15,6,8,77};
+=======
+		int[] mi_array_enteros = {5,10,15,6,8,22};
+>>>>>>> branch 'master' of https://github.com/fiermarin/Java.git
 		String[] mi_array_string = {"azul", "amarillo", "rosado", "verde", "naranja"};
 		
 		int[] respuesta_int = sumaEnteros(mi_array_enteros);		//Declaro el array respuesta y espero la respuesta de la funcion SumaEnteros a la cual le paso el array "mi_array_enteros"
@@ -12,7 +16,7 @@ public class Principal {
 			System.out.println(respuesta_int[i]);
 		}
 		
-		imprimirColores(mi_array_string);
+		imprimirColores(mi_array_string);			// PRUEBA
 	}
 	
 	public static int[] sumaEnteros(int[] array_enteros) {
