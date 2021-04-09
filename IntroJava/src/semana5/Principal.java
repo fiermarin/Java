@@ -12,7 +12,7 @@ public class Principal {
 			System.out.println(respuesta_int[i]);
 		}
 		
-		imprimirColores(mi_array_string);
+		imprimirColores(mi_array_string);			// PRUEBA
 	}
 	
 	public static int[] sumaEnteros(int[] array_enteros) {
